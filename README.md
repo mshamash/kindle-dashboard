@@ -1,8 +1,9 @@
-# Kindle Weather Dashboard
+# Kindle Weather Dashboard (for PaperWhite 7th Gen)
 
 Hey there! 👋 This is a fun little project I put together to display weather info on my Kindle. It's specifically built to work with Environment Canada's weather data (because their API is free and pretty decent!).
 
-This is the server that I'm using for the Kindle Dashboard specified in this blog post: [Reviving my Kindle PW7](https://terminalbytes.com/reviving-kindle-paperwhite-7th-gen/)
+This is the server that I'm using for the Kindle Dashboard specified in this blog post: 
+[Reviving my Kindle PW7](https://terminalbytes.com/reviving-kindle-paperwhite-7th-gen/)
 
 ![Kindle Weather Dashboard](public/dash.png)
 
