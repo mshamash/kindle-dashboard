@@ -21,7 +21,7 @@ This dashboard generates a clean, Kindle-friendly weather display that shows:
 - Battery level of your Kindle
 - Weather alerts (when active)
 
-## ⚠️ Project Status
+## ☘️ Project Status
 
 Look, this is a pretty rough project that I hacked together for my own use. It works for me, but there might be bugs, and the code could definitely use some cleanup. That said, if you're in Canada and want to build your own Kindle weather display, this could be a good starting point!
 
