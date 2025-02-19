@@ -33,7 +33,3 @@ pids/
 
 # Test coverage
 coverage/
-
-# Project specific
-public/*.png
-public/weather*.jpg 
