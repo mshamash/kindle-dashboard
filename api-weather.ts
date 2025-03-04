@@ -5,8 +5,8 @@ import * as lucideIcons from 'lucide-static';
 import fs from 'fs';
 import { chromium } from 'playwright';
 
-const DASHBOARD_WIDTH = 1648;
-const DASHBOARD_HEIGHT = 1236;
+const DASHBOARD_WIDTH = 1448;
+const DASHBOARD_HEIGHT = 1072;
 const PORT = 8080; // Different from the other weather server
 const PUBLIC_DIR = path.join(process.cwd(), 'public');
 const WEATHER_LOCATION = {
@@ -304,9 +304,9 @@ async function createWeatherImage(weatherData: any, batteryPercentage: number) {
   <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
   <style>
     :root {
-      --dashboard-width: 1648px;
-      --dashboard-height: 1236px;
-      --aspect-ratio: calc(1236 / 1648);
+      --dashboard-width: 1448px;
+      --dashboard-height: 1072px;
+      --aspect-ratio: calc(1072 / 1448);
       
       /* Color variables */
       --text-primary: #000000;    /* For the most important information */
@@ -332,7 +332,7 @@ async function createWeatherImage(weatherData: any, batteryPercentage: number) {
     .container {
       width: var(--dashboard-width);
       height: var(--dashboard-height);
-      aspect-ratio: calc(1648 / 1236);
+      aspect-ratio: calc(1448 / 1072);
       display: flex;
       background: #fff;
       max-width: 100vw;
@@ -542,14 +542,14 @@ async function createWeatherImage(weatherData: any, batteryPercentage: number) {
       color: var(--text-primary);
     }
     
-    @media (max-aspect-ratio: 1648/1236) {
+    @media (max-aspect-ratio: 1448/1072) {
       .container {
         width: 100vw;
         height: calc(100vw * var(--aspect-ratio));
       }
     }
     
-    @media (min-aspect-ratio: 1648/1236) {
+    @media (min-aspect-ratio: 1448/1072) {
       .container {
         height: 100vh;
         width: calc(100vh / var(--aspect-ratio));

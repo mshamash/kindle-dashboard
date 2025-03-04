@@ -2,8 +2,8 @@ import { chromium } from 'playwright';
 import sharp from 'sharp';
 import path from 'path';
 
-const DASHBOARD_WIDTH = 1648;
-const DASHBOARD_HEIGHT = 1236;
+const DASHBOARD_WIDTH = 1448;
+const DASHBOARD_HEIGHT = 1072;
 // Adjust these values to shift the viewport without changing screenshot dimensions
 const HORIZONTAL_OFFSET = 70;
 const VERTICAL_OFFSET = 860;
